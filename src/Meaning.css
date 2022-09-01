@@ -1,0 +1,14 @@
+.Meaning .example {
+    font-style: italic
+}
+
+.Meaning p {
+    margin: 0
+}
+
+.Meaning .definition-example {
+    border: 1px solid lightgrey;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 10px
+}
