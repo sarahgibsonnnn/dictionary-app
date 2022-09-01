@@ -1,14 +1,25 @@
+.Meaning {
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 10px
+}
+
+.Meaning .speech {
+    font-style: italic
+}
 .Meaning .example {
     font-style: italic
 }
 
+.Meaning .definition {
+    font-size: 20px
+}
 .Meaning p {
     margin: 0
 }
 
 .Meaning .definition-example {
-    border: 1px solid lightgrey;
     margin: 10px 0;
     border-radius: 5px;
-    padding: 10px
 }
