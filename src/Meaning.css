@@ -9,7 +9,8 @@
     font-style: italic
 }
 .Meaning .example {
-    font-style: italic
+    font-style: italic;
+    color: #707070
 }
 
 .Meaning .definition {
@@ -20,6 +21,6 @@
 }
 
 .Meaning .definition-example {
-    margin: 10px 0;
+    margin: 30px 0;
     border-radius: 5px;
 }
