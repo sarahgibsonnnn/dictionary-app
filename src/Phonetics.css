@@ -1,7 +1,13 @@
 .Phonetics {
     display: flex;
-    flex-direction: row;
-    gap: 10px
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px
+  
+}
+
+.Phonetics span {
+    opacity: 0.7;
 }
 
 .Phonetics .phonetic {
@@ -9,6 +15,20 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.Phonetics a {
+    text-decoration: none;
+    color: #FF4A6D;
+    border: 1px solid #FF4A6D;
+    padding: 2px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: all 0.2s
+}
+
+.Phonetics a:hover {
+    background: #FF4A6D;
+    color: white
 }

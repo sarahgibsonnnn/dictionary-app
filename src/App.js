@@ -1,15 +1,17 @@
 import './App.css';
 import Dictionary from './Dictionary' 
+import dictionaryIcon from './icons/book.svg'
 
 function App() {
   return (
-    <div className="App">
+    <body className="App">
       <div className = "container">
         <header className="App-header">
+          <img src = {dictionaryIcon} style={{width: '50px', height: '50px'}}></img>
           Dictionary
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset"/>
         </main>
         <footer className="repository-link">
         
@@ -21,7 +23,7 @@ function App() {
        </footer>
       </div>
 
-    </div>
+    </body>
   );
 }
 

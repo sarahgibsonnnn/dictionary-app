@@ -1,0 +1,19 @@
+.Results .word {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    color: #3E4459;
+
+}
+
+.Results h1 {
+    margin-bottom: 10px;
+    color: #FF4A6D;
+    font-weight: bold;
+    font-size:24px
+}
