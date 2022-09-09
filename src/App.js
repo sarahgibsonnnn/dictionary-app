@@ -7,7 +7,7 @@ function App() {
     <body className="App">
       <div className = "container">
         <header className="App-header">
-          <img src = {dictionaryIcon} style={{width: '50px', height: '50px'}}></img>
+          <img src = {dictionaryIcon} style={{width: '50px', height: '50px'}} alt="Dictionary Logo"></img>
           Dictionary
         </header>
         <main>
