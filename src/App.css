@@ -41,7 +41,7 @@
   color:#3E4459;
 }
 
-.App a img {
+.App .footer-image img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -49,7 +49,7 @@
   margin: 0 5px
 }
 
-.App footer a:hover{
+.App footer .footer-image:hover{
   text-decoration: underline;
 }
 

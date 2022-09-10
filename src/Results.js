@@ -2,6 +2,8 @@ import React from 'react';
 import './Results.css';
 import Meaning from './Meaning'
 import Phonetics from './Phonetics'
+import Photos from './Photos'
+
 
 export default function Results(props) {
     if(props.results) {
@@ -17,6 +19,7 @@ export default function Results(props) {
                     <Meaning meaning={meaning} />
                     </div>
                })}
+               <Photos photos={props.photos}/>
             </div>
         )
     } else {
