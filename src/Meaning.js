@@ -3,6 +3,7 @@ import './Meaning.css';
 import Synonyms from './Synonyms'
 
 export default function Meaning(props) {
+    console.log(props)
     return(
         <div className = "Meaning">
             <h3 className = "speech">
@@ -14,10 +15,10 @@ export default function Meaning(props) {
                     <div key = {index} className="definition-example">
                         <p className = "definition"> {definition.definition} </p>
                         <p className = "example"> {definition.example} </p>
-                        <Synonyms synonyms={definition.synonyms}/>
                     </div>
                 )
             })}
+            <Synonyms synonyms={props.meaning.synonyms}/>
             </div>
             
         </div>
